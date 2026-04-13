@@ -31,7 +31,7 @@ r2  = r2_score(y_test, y_pred)
 
 print(f"MSE: {mse:.4f}")
 print(f"R2:  {r2:.4f}")
-print(f"Run completed by: {YOUR_NAME} - {YOUR_REG_NO}")
+print(f"Run completed by: {NAME} - {REG_NO}")
 
 # Save model
 with open("model.pkl", "wb") as f:
